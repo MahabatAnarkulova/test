@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <title>Прогноз погоды</title>
+</head>
+<body>
+    <div class="container">
+       <form>
+        <input type="text" name="text" class="search" placeholder="search for city">
+       </form>
+        <div class="enter">
+            <p>
+                Please enter the anem of the city and press enter to see results
+            </p>
+        </div>
+        <div class="weather">
+            <span id="block1">
+                <h5> Bishkek,KyrgyStan </h5>
+                <p>Wednesday, December 14,
+                    2022
+                </p>
+                <p>
+                    13:55
+                </p>
+            </span>
+            <h2 id="block2">
+                <p class="img_sun">
+                    <img class="sun" src="./img/sun.png" alt="sun">
+                  <span class="number">
+                    3°C
+                  </span>
+                </p>
+                <p class="word_sun">
+                    sunny
+                </p>
+            </h2>
+        
+            <span id="block3">
+                <p>
+                    feel likes 3°C
+                </p>
+                    <p>
+                        Humidty:76%
+                    </p>
+                    <p>
+                        Wind: 3.6 kph
+                    </p>
+            </span>
+        </div>
+        <div class="promt">
+            <p>
+                No matching location found
+            </p>
+        </div>
+    </div>
+
+   
+    <script src="main.js"></script>
+</body>
+</html>
